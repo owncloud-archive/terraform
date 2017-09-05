@@ -1,0 +1,3 @@
+{
+  "commandToExecute": "bash provision.sh ${server_admin} ${owncloud_admin} ${owncloud_password} ${owncloud_domain}"
+}
