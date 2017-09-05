@@ -4,6 +4,7 @@ data "template_file" "settings" {
 
   vars {
     artifacts_location = "${var.artifacts_location}"
+    server_admin = "${var.server_admin}"
     owncloud_admin = "${var.owncloud_admin}"
     owncloud_password = "${var.owncloud_password}"
     owncloud_domain = "${var.owncloud_domain}"
@@ -16,6 +17,7 @@ data "template_file" "provision" {
 
   vars {
     artifacts_location = "${var.artifacts_location}"
+    server_admin = "${var.server_admin}"
     owncloud_admin = "${var.owncloud_admin}"
     owncloud_password = "${var.owncloud_password}"
     owncloud_domain = "${var.owncloud_domain}"
